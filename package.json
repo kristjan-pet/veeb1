@@ -1,0 +1,33 @@
+{
+  "name": "vp2023",
+  "version": "1.0.0",
+  "description": "veebiprogrammeerimise kursuse projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kristjan-pet@github.com/kristjan-pet/veeb1.git"
+  },
+  "keywords": [
+    "veebiprogrammeerimine",
+    "node.js",
+    "express.js",
+    "tallinna",
+    "ülikool",
+    "tlü",
+    "vp",
+    "vp23"
+  ],
+  "author": "Kristjan Petersell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristjan-pet/veeb1/issues"
+  },
+  "homepage": "https://github.com/kristjan-pet/veeb1#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
