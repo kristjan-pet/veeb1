@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kristjan Petersell</title>
+</head>
+<body>
+	<img src="/banner/banner.png" alt="Veebiprogrammeerimise kursuse bänner">
+	<h1><%= h1 %></h1>
+	<ul>
+		<!--Teeme ejs tsükli, mis käib läbi massiivi wisdom-->
+		<% wisdom.forEach(function(sentence){ %>
+			<li><%= sentence %></li>
+		<% }); %>
+	</ul>
+	<hr>
+	<ul>
+		<li><a href="/">Avalehele</a></li>
+	</ul>
+	<hr>
+	<p>Aitäh tungimast!</p>
+</body>
+</html>
